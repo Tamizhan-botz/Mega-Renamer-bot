@@ -34,7 +34,7 @@ async def start(client, message):
     if ends:
         pre_check = check_expi(ends)
         if pre_check == False:
-            uploadlimit(message.from_user.id, 1288490188)
+            uploadlimit(message.from_user.id, 1217549670)
             usertype(message.from_user.id, "Free")
     if ends == None:
         text = f"User ID:- ```{message.from_user.id}```\nPlan :- {user}\nDaly Upload Limit :- {humanbytes(limit)}\nToday Used :- {humanbytes(used)}\nRemain:- {humanbytes(remain)}"
@@ -43,6 +43,6 @@ async def start(client, message):
         text = f"User ID:- ```{message.from_user.id}```\nPlan :- {user}\nDaly Upload Limit :- {humanbytes(limit)}\nToday Used :- {humanbytes(used)}\nRemain:- {humanbytes(remain)}\n\nYour Plan Ends On :- {normal_date}"
 
     if user == "Free":
-        await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Upgrade 💰💳", callback_data="upgrade"), InlineKeyboardButton("Cancel ✖️ ", callback_data="cancel")]]))
+        await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📈 Upgrade 📈", callback_data="upgrade"), InlineKeyboardButton("❌ Cancel ❌ ", callback_data="cancel")]]))
     else:
         await message.reply(text, quote=True)
