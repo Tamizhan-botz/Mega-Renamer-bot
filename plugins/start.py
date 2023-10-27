@@ -130,7 +130,7 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("📞 Contact  📞", url='https://telegram.me/LazyDeveloper')],
+                                                                     [InlineKeyboardButton("📞 Contact  📞", url='https://t.me/Praxxsh')],
                                                                      [InlineKeyboardButton("📣 Visit Channel 📣 ", url='https://t.me/Doremon_Botz'),
                                                                      InlineKeyboardButton(" 📣 Support Group 📣", url='https://t.me/+5xScmjemXiI4Yjll')]
                                                                     ]))
