@@ -45,7 +45,7 @@ async def start(client, message):
     try:
         id = message.text.split(' ')[1]
     except:
-        txt=f"""🙋‍♂️ Hello {wish}   {mention} \n
+        txt=f"""🙋‍♂️ Hello {wish}   {message.from_user.mention} \n
 	<b>I'ᴍ A Sɪᴍᴘʟᴇ Fɪʟᴇ  Rᴇɴᴀᴍᴇ+Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇɴᴛᴏʀ Bᴏᴛ Wɪᴛʜ Tʜᴜᴍʙɴᴀɪʟ & Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ 🚀
 🤖 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Doremon_Botz</b>"""
         await message.reply_photo(photo=LAZY_PIC,
