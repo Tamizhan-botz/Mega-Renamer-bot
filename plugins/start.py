@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "🙋‍♂️ HII DUDE"
+    wish = " DUDE"
 elif 12 <= currentTime.hour < 12:
-    wish = '🙋‍♂️ HII DUDE'
+    wish = ' DUDE'
 else:
-    wish = '🙋‍♂️ HII DUDE'
+    wish = ' DUDE'
 
 # -------------------------------
 
@@ -46,15 +46,17 @@ async def start(client, message):
         id = message.text.split(' ')[1]
     except:
         txt=f"""Hello {wish} {message.from_user.first_name } \n\n
-	I am file renamer bot, Please sent any telegram**Document Or Video** and enter new filename to rename it"""
+	<b>I'ᴍ A Sɪᴍᴘʟᴇ 𝟸GB Fɪʟᴇ  Rᴇɴᴀᴍᴇ+Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇɴᴛᴏʀ Bᴏᴛ Wɪᴛʜ Tʜᴜᴍʙɴᴀɪʟ & Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ 🚀
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ :@Doremon_Botz</b>"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("📣 Update Channel 📣", url="https://t.me/Doremon_Botz")],
-                                      [InlineKeyboardButton("🧧 Update Group 🧧", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("⚡ Renamer Bot - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
-                                      InlineKeyboardButton("⚡ Renamer Bot - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
-                                      [InlineKeyboardButton("🔰 4GB Renamer Bot 🔰", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("📣 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📣", url="https://t.me/Doremon_Botz"),
+                                      InlineKeyboardButton("🧧 Uᴘᴅᴀᴛᴇ Gʀᴏᴜᴘ 🧧", url="https://t.me/+5xScmjemXiI4Yjll")],
+                                      [InlineKeyboardButton("⚡ Rᴇɴᴀᴍᴇʀ Bᴏᴛ - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
+                                      InlineKeyboardButton("⚡ Rᴇɴᴀᴍᴇʀ Bᴏᴛ - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
+                                      [InlineKeyboardButton("🔰 𝟺GB Rᴇɴᴀᴍᴇʀ Bᴏᴛ 🔰", url='https://t.me/MegaRenamer_bot')],
+                                      [InlineKeyboardButton("❌ Cᴀɴᴄᴇʟ", callback_data="cancel")]
                                       ]))
         return
     if id:
@@ -64,11 +66,12 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                              [[InlineKeyboardButton("📣 Update Channel 📣", url="https://t.me/Doremon_Botz")],
-                                              [InlineKeyboardButton("🧧 Update Group 🧧", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("⚡ Renamer Bot - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
-                                              InlineKeyboardButton("⚡ Renamer Bot - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
-                                              [InlineKeyboardButton("🔰 4GB Renamer Bot 🔰", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                              [[InlineKeyboardButton("📣 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📣", url="https://t.me/Doremon_Botz"),
+                                              InlineKeyboardButton("🧧 Uᴘᴅᴀᴛᴇ Gʀᴏᴜᴘ 🧧", url="https://t.me/+5xScmjemXiI4Yjll")],
+                                              [InlineKeyboardButton("⚡ Rᴇɴᴀᴍᴇʀ Bᴏᴛ - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
+                                              InlineKeyboardButton("⚡ Rᴇɴᴀᴍᴇʀ Bᴏᴛ - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
+                                              [InlineKeyboardButton("🔰 𝟺GB Rᴇɴᴀᴍᴇʀ Bᴏᴛ 🔰", url='https://t.me/MegaRenamer_bot')],
+					      [InlineKeyboardButton("❌ Cᴀɴᴄᴇʟ", callback_data="cancel")]
                                               ]))
             except:
                 return
@@ -84,11 +87,12 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("📣 Update Channel 📣", url="https://t.me/Doremon_Botz")],
-                                          [InlineKeyboardButton("🧧 Update Group 🧧", url="https://youtube.com/@LazyDeveloperr")],
-                                          [InlineKeyboardButton("⚡ Renamer Bot - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
-                                          InlineKeyboardButton("⚡ Renamer Bot - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
-                                          [InlineKeyboardButton("🔰 4GB Renamer Bot 🔰", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                         [[InlineKeyboardButton("📣 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📣", url="https://t.me/Doremon_Botz"),
+                                          InlineKeyboardButton("🧧 Uᴘᴅᴀᴛᴇ Gʀᴏᴜᴘ 🧧", url="https://t.me/+5xScmjemXiI4Yjll")],
+                                          [InlineKeyboardButton("⚡ Rᴇɴᴀᴍᴇʀ Bᴏᴛ - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
+                                          InlineKeyboardButton("⚡ Rᴇɴᴀᴍᴇʀ Bᴏᴛ - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
+                                          [InlineKeyboardButton("🔰 𝟺GB Rᴇɴᴀᴍᴇʀ Bᴏᴛ 🔰", url='https://t.me/MegaRenamer_bot')],
+					  [InlineKeyboardButton("❌ Cᴀɴᴄᴇʟ", callback_data="cancel")]
                                           ]))
     
 
