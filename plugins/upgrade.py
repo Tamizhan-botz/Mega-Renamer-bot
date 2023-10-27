@@ -9,22 +9,19 @@ async def upgrade(bot,update):
 	Price 0
 	
 	**🪙 Silver Tier 🪙** 
-	Daily  Upload  limit 10GB
-	Price Rs 66  ind /🌎 0.8$  per Month
+	Dᴀɪʟʏ  Uᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶GB
+    Pʀɪᴄᴇ Rs 29  ɪɴᴅ /🌎 𝟶.𝟼$  ᴘᴇʀ Mᴏɴᴛ
 	
 	**💫 Gold Tier 💫**
-	Daily Upload limit 50GB
-	Price Rs 100  ind /🌎 1.2$  per Month
+	Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟻𝟶GB
+   Pʀɪᴄᴇ Rs 𝟺𝟿  ɪɴᴅ /🌎 𝟶.𝟿$  ᴘᴇʀ Mᴏɴᴛʜ
 	
 	**💎 Diamond 💎**
-	Daily Upload limit 100GB
-	Price Rs 206  ind /🌎 2.5$  per Month
-	
-	
-	Pay Using Upi I'd ```7808912076@paytm```
+	Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷𝟶𝟶GB
+   Pʀɪᴄᴇ Rs 𝟿𝟿  ɪɴᴅ /🌎 𝟷.𝟺$  ᴘᴇʀ Mᴏɴᴛʜ
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @praxxsh"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mRiderDM")], 
         			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
@@ -35,20 +32,20 @@ async def upgrade(bot,update):
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
 	text = """**Free Plan User**
-	Daily  Upload limit 1.2GB
+	Daily  Upload limit 2GB
 	Price 0
 	
-	**🪙 Silver Tier 🪙** 
-	Daily  Upload  limit 10GB
-	Price Rs 66  ind /🌎 0.8$  per Month
+	**🪙 Bʀᴏɴᴢᴇ Tier 🪙** 
+	Dᴀɪʟʏ  Uᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶GB
+   Pʀɪᴄᴇ Rs 29  ɪɴᴅ /🌎 𝟶.𝟼$  ᴘᴇʀ Mᴏɴᴛʜ
 	
-	**💫 Gold Tier 💫**
-	Daily Upload limit 50GB
-	Price Rs 100  ind /🌎 1.2$  per Month
+	**💫 Sɪʟᴠᴇʀ 💫**
+	 Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟻𝟶GB
+   Pʀɪᴄᴇ Rs 𝟺𝟿  ɪɴᴅ /🌎 𝟶.𝟿$  ᴘᴇʀ Mᴏɴᴛʜ
 	
-	**💎 Diamond 💎**
-	Daily Upload limit 100GB
-	Price Rs 206  ind /🌎 2.5$  per Month
+	**💎  Gᴏʟᴅ Tɪᴇʀ 🥇**
+	Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷𝟶𝟶GB
+   Pʀɪᴄᴇ Rs 𝟿𝟿  ɪɴᴅ /🌎 𝟷.𝟺$  ᴘᴇʀ Mᴏɴᴛʜ
 	
 	
 	Pay Using Upi I'd ```7808912076@paytm```
