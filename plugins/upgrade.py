@@ -8,7 +8,7 @@ async def upgrade(bot,update):
 	Daily  Upload limit 1.2GB
 	Price 0
 	
-	**🥉🥉 Bʀᴏɴᴢᴇ  Tier 🥉** 
+	**🥉 Bʀᴏɴᴢᴇ  Tier 🥉** 
 	Dᴀɪʟʏ  Uᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶GB
     Pʀɪᴄᴇ Rs 15  ɪɴᴅ /🌎 𝟶.𝟼$  ᴘᴇʀ Mᴏɴᴛʜ
 	
@@ -23,9 +23,8 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin @praxxsh"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mRiderDM")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("📞 ADMIN 📞",url = "https://t.me/Praxxsh")], 
+        			[InlineKeyboardButton("❌ Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -35,25 +34,22 @@ async def upgradecm(bot,message):
 	Daily  Upload limit 2GB
 	Price 0
 	
-	**🪙 Bʀᴏɴᴢᴇ Tier 🪙** 
+	**🥉 Bʀᴏɴᴢᴇ Tier 🥉** 
 	Dᴀɪʟʏ  Uᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶GB
    Pʀɪᴄᴇ Rs 15  ɪɴᴅ /🌎 𝟶.𝟼$  ᴘᴇʀ Mᴏɴᴛʜ
 	
-	**💫 Sɪʟᴠᴇʀ 💫**
+	**🥈 Sɪʟᴠᴇʀ Tier 🥈**
 	 Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟻𝟶GB
    Pʀɪᴄᴇ Rs 35  ɪɴᴅ /🌎 𝟶.𝟿$  ᴘᴇʀ Mᴏɴᴛʜ
 	
-	**💎  Gᴏʟᴅ Tɪᴇʀ 🥇**
+	**🥇 Gᴏʟᴅ Tɪᴇʀ 🥇**
 	Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷𝟶𝟶GB
    Pʀɪᴄᴇ Rs 60  ɪɴᴅ /🌎 𝟷.𝟺$  ᴘᴇʀ Mᴏɴᴛʜ
 	
 	
-	Pay Using Upi I'd ```7808912076@paytm```
-	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @Praxxsh"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mRiDerDM")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("📞 ADMIN 📞",url = "https://t.me/praxxsh")], 
+        			[InlineKeyboardButton("❌Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
