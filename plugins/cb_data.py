@@ -61,13 +61,13 @@ async def doc(bot, update):
     file_path = f"downloads/{new_filename}"
     message = update.message.reply_to_message
     file = message.document or message.video or message.audio
-    ms = await update.message.edit("```Loading...```")
+    ms = await update.message.edit("```⏳ Loading...```")
     used_limit(update.from_user.id, file.file_size)
     c_time = time.time()
     total_used = used + int(file.file_size)
     used_limit(update.from_user.id, total_used)
     try:
-        path = await bot.download_media(message=file, progress=progress_for_pyrogram, progress_args=("``` 🔃 Loading...```",  ms, c_time))
+        path = await bot.download_media(message=file, progress=progress_for_pyrogram, progress_args=("``` ⏳ Trying To Download...```",  ms, c_time))
 
     except Exception as e:
         neg_used = used - int(file.file_size)
@@ -153,13 +153,13 @@ async def vid(bot, update):
     file_path = f"downloads/{new_filename}"
     message = update.message.reply_to_message
     file = message.document or message.video or message.audio
-    ms = await update.message.edit("```Trying To Download...```")
+    ms = await update.message.edit("```⏳ Trying To Download...```")
     used_limit(update.from_user.id, file.file_size)
     c_time = time.time()
     total_used = used + int(file.file_size)
     used_limit(update.from_user.id, total_used)
     try:
-        path = await bot.download_media(message=file, progress=progress_for_pyrogram, progress_args=("``` 🔃 Loading... ```",  ms, c_time))
+        path = await bot.download_media(message=file, progress=progress_for_pyrogram, progress_args=("``` ⏳ Trying To Download... ```",  ms, c_time))
 
     except Exception as e:
         neg_used = used - int(file.file_size)
@@ -256,10 +256,10 @@ async def aud(bot, update):
     file = message.document or message.video or message.audio
     total_used = used + int(file.file_size)
     used_limit(update.from_user.id, total_used)
-    ms = await update.message.edit("```Trying To Download...```")
+    ms = await update.message.edit("```⏳ Trying To Download...```")
     c_time = time.time()
     try:
-        path = await bot.download_media(message=file, progress=progress_for_pyrogram, progress_args=("``` 🔃 Loading...```",  ms, c_time))
+        path = await bot.download_media(message=file, progress=progress_for_pyrogram, progress_args=("``` ⏳ Trying To Download...```",  ms, c_time))
     except Exception as e:
         neg_used = used - int(file.file_size)
         used_limit(update.from_user.id, neg_used)
