@@ -8,15 +8,15 @@ async def upgrade(bot,update):
 	Daily  Upload limit 1.2GB
 	Price 0
 	
-	**🪙 Silver Tier 🪙** 
+	**🪙 Bʀᴏɴᴢᴇ  Tier 🪙** 
 	Dᴀɪʟʏ  Uᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ 𝟷𝟶GB
     Pʀɪᴄᴇ Rs 29  ɪɴᴅ /🌎 𝟶.𝟼$  ᴘᴇʀ Mᴏɴᴛ
 	
-	**💫 Gold Tier 💫**
+	**💫 Sɪʟᴠᴇʀ Tier 💫**
 	Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟻𝟶GB
    Pʀɪᴄᴇ Rs 𝟺𝟿  ɪɴᴅ /🌎 𝟶.𝟿$  ᴘᴇʀ Mᴏɴᴛʜ
 	
-	**💎 Diamond 💎**
+	**🥇 Gᴏʟᴅ Tɪᴇʀ 💎**
 	Dᴀɪʟʏ Uᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷𝟶𝟶GB
    Pʀɪᴄᴇ Rs 𝟿𝟿  ɪɴᴅ /🌎 𝟷.𝟺$  ᴘᴇʀ Mᴏɴᴛʜ
 	
