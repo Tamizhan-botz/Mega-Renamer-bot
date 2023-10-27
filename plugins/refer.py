@@ -4,5 +4,5 @@ from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceRep
 async def refer(client,message):
     reply_markup = InlineKeyboardMarkup(
        		[[ InlineKeyboardButton("Share Your Link" ,url=f"https://t.me/share/url?url=https://t.me/FlashRenamer_bot?start={message.from_user.id}") ]   ])
-    await message.reply_text(f"Refer And Earn Get 100MB Upload Limit\nPer Refer 1000MB\n Your Link :- https://t.me/MegaRenamer_bot?start={message.from_user.id} ",reply_to_message_id = message.id,reply_markup=reply_markup,)
+    await message.reply_text(f"Refer And Earn Get 1000MB Upload Limit\nPer Refer 1000MB\n Your Link :- https://t.me/MegaRenamer_bot?start={message.from_user.id} ",reply_to_message_id = message.id,reply_markup=reply_markup,)
     
