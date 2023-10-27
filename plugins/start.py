@@ -17,8 +17,8 @@ import os
 
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
+ADMIN = int(os.environ.get("ADMIN", 1217549670))
+bot_username = os.environ.get("BOT_USERNAME","MegaRenamer_bot")
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "🙋‍♂️ HII DUDE"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '🙋‍♂️ HII DUDE'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '🙋‍♂️ HII DUDE'
 
 # -------------------------------
 
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("📣 Update Channel 📣", url="https://t.me/Doremon_Botz")],
+                                      [InlineKeyboardButton("🧧 Update Group 🧧", url="https://youtube.com/@LazyDeveloperr")],
+                                      [InlineKeyboardButton("⚡ Renamer Bot - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
+                                      InlineKeyboardButton("⚡ Renamer Bot - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
+                                      [InlineKeyboardButton("🔰 4GB Renamer Bot 🔰", url='https://p.paytm.me/xCTH/vo37hii9')]
                                       ]))
         return
     if id:
@@ -64,12 +64,12 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
-                                          ]))
+                                              [[InlineKeyboardButton("📣 Update Channel 📣", url="https://t.me/Doremon_Botz")],
+                                              [InlineKeyboardButton("🧧 Update Group 🧧", url="https://youtube.com/@LazyDeveloperr")],
+                                              [InlineKeyboardButton("⚡ Renamer Bot - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
+                                              InlineKeyboardButton("⚡ Renamer Bot - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
+                                              [InlineKeyboardButton("🔰 4GB Renamer Bot 🔰", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                              ]))
             except:
                 return
         else:
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                         [[InlineKeyboardButton("📣 Update Channel 📣", url="https://t.me/Doremon_Botz")],
+                                          [InlineKeyboardButton("🧧 Update Group 🧧", url="https://youtube.com/@LazyDeveloperr")],
+                                          [InlineKeyboardButton("⚡ Renamer Bot - 1 ⚡", url='https://t.me/FlashRenamer_bot'),
+                                          InlineKeyboardButton("⚡ Renamer Bot - 2 ⚡", url='https://t.me/DB_RENAMERBOT')],
+                                          [InlineKeyboardButton("🔰 4GB Renamer Bot 🔰", url='https://p.paytm.me/xCTH/vo37hii9')]
                                           ]))
     
 
@@ -107,7 +107,7 @@ async def send_doc(client, message):
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
-            await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
+            await client.send_message(log_channel,f"🔰 #MEGARENAMER_LOGS 🔰,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
 
@@ -126,13 +126,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/LazyDeveloper')],
-                                                                     [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@LazyDeveloperr')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/LazyDeveloper'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/LazyPrincessSupport')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                                                     [InlineKeyboardButton("📞 Contact  📞", url='https://telegram.me/LazyDeveloper')],
+                                                                     [InlineKeyboardButton("📣 Visit Channel 📣 ", url='https://t.me/Doremon_Botz'),
+                                                                     InlineKeyboardButton(" 📣 Support Group 📣", url='https://t.me/+5xScmjemXiI4Yjll')]
                                                                     ]))
-        await message.reply_text(text=f"🦋")
+        await message.reply_text(text=f"🔰")
         return 
 
     c_time = time.time()
@@ -146,7 +144,7 @@ async def send_doc(client, message):
     conversion = datetime.timedelta(seconds=left)
     ltime = str(conversion)
     if left > 0:
-        await message.reply_text(f"```Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}```", reply_to_message_id=message.id)
+        await message.reply_text(f"```😣 Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}```", reply_to_message_id=message.id)
     else:
         # Forward a single message
         media = await client.get_messages(message.chat.id, message.id)
@@ -180,7 +178,7 @@ async def send_doc(client, message):
                     total_rename(int(botid), prrename)
                     total_size(int(botid), prsize, file.file_size)
                 else:
-                    uploadlimit(message.from_user.id, 1288490188)
+                    uploadlimit(message.from_user.id, 1217549670)
                     usertype(message.from_user.id, "Free")
 
                     await message.reply_text(f'Your Plan Expired On {buy_date}', quote=True)
@@ -192,7 +190,7 @@ async def send_doc(client, message):
             if buy_date:
                 pre_check = check_expi(buy_date)
                 if pre_check == False:
-                    uploadlimit(message.from_user.id, 1288490188)
+                    uploadlimit(message.from_user.id, 1217549670)
                     usertype(message.from_user.id, "Free")
 
             filesize = humanize.naturalsize(file.file_size)
@@ -201,4 +199,4 @@ async def send_doc(client, message):
             total_size(int(botid), prsize, file.file_size)
             await message.reply_text(f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Dc ID** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("📝 Rename", callback_data="rename"),
-                  InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]]))
+                  InlineKeyboardButton("❌ Cancel", callback_data="cancel")]]))
