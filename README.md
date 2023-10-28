@@ -1,7 +1,7 @@
-<img src="https://telegra.ph/file/9936c273582628afb098c.png" alt="logo" target="/blank">
+<img src="https://graph.org/file/962dcc98c5d3fdc8b9b4f.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/LazyDeveloper" target="/blank"> Gangster Baby ( PREMIUM Renamer ) </a></>
+ <b><a href="https://telegram.me/Doremon-Botz" target="/blank"> Gangster Baby ( PREMIUM Renamer ) </a></>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>
@@ -34,16 +34,16 @@
 <details><summary>🔥 Deploy To Koyeb 🔥</summary>
 <p>
 <br>                 
-<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/Gangster-Baby-Renamer-V2&branch=main&name=gngbabyrenamer" >
+<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=ggithub.com/Tamizhan-botz/Mega-Renamer-bot&branch=main&name=gngbabyrenamer" >
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 </details>
 
-<details><summary>Deploy To Heroku</summary>
+<details><summary>🔰 Deploy To Heroku 🔰</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Tamizhan-botz/Gangster-Baby-Renamer-V2)">
+<a href="https://heroku.com/deploy?template=https://github.com/Tamizhan-botz/Mega-Renamer-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -53,7 +53,7 @@
 
 
 
-#### 🥰 Features
+#### 🤖 Features
  - Renames very fast .
  - Permanent Thumbnail support.
  - Force join for the user for use.
@@ -63,7 +63,7 @@
  - Force subscribe available.
  - Supports ulimited renaming at a time.
  - Deploy to Koyeb + Heroku + Railway.
- - Developer Service 24x7. 🔥
+ - Developer Service 24x7. ⚡
 
 ### 🚦 User Commands
 `/start` - Check if the bot is running.
@@ -98,17 +98,15 @@
 
 
 ### 🔗 important_Links
-- [🤩 Create Auto Filter BOT](https://www.youtube.com/watch?v=jw3e4L1u-Vo&t=22s)
-- [🤩 Create FILE TO LINK BOT](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
-- [🤩 Create Movie Request BOT](https://www.youtube.com/watch?v=mIEv7MjLj2U&t=38s)
-- [❣️ Join Youtube](https://www.youtube.com/@LazyDeveloperr)
+- [🔰 BOT MAIN CHANNEL](https://www.youtube.com/watch?v=jw3e4L1u-Vo&t=22s)
+- [🔰 BOT UPDATE GROUP](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
+- [🔰 Movie Request BOT](https://www.youtube.com/watch?v=mIEv7MjLj2U&t=38s)
 
 
-#### 🧡 Respecting... 🧡
-- [🔥 LazyDeveloperr](https://github.com/LazyDeveloperr) 
-- [🔥 lntechnical2](https://github.com/lntechnical2)
+#### 📣 Respecting... 📣
+- [🤖 Developerr](https://github.com/Tamizhan-botz)
 
-### 🤩 INSPIRATION
+### ⚡ INSPIRATION
 <a href="#">
-   <p>❣️ GANGSTER-BABY 🔥</p>
+   <p>⚡ FLASHRENAMER-BOR ⚡</p>
 </a>
