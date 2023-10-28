@@ -84,6 +84,8 @@
  
 `/upgrade` - To view all plans with price list of SILVER - GOLD - DIAMOND.
 
+`/warn` - Warn a user.
+
 ### Admin Commands
 
 `/lazyusers` - To view list of users, using BOT [FOR ADMINS USE ONLY]
