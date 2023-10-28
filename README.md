@@ -98,9 +98,9 @@
 
 
 ### 🔗 important_Links
-- [🔰 BOT MAIN CHANNEL](https://www.youtube.com/watch?v=jw3e4L1u-Vo&t=22s)
-- [🔰 BOT UPDATE GROUP](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
-- [🔰 Movie Request BOT](https://www.youtube.com/watch?v=mIEv7MjLj2U&t=38s)
+- [🔰 BOT MAIN CHANNEL](https://t.me/Doremon_Botz)
+- [🔰 BOT UPDATE GROUP](https://t.me/+5xScmjemXiI4Yjll)
+- [🔰 Movie Request BOT](https://t.me/Movie_Requestgrp)
 
 
 #### 📣 Respecting... 📣
